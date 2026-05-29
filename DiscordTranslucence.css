@@ -1,12 +1,12 @@
 /**
- * @name TranslucencePlus
+ * @name DiscordTranslucence
  * @description A translucent/frosted glass Discord theme
  */
 
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(bg.png);
+	--app-bg: url(https://#);
 	--app-margin: 1px;
 	--app-blur: 0px;
 	--app-radius: 15px;
