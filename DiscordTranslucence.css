@@ -1,13 +1,18 @@
 /**
  * @name DiscordTranslucence
  * @description A translucent/frosted glass Discord theme
+ * @author Rigz
  */
+
+/* 
+A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
+*/
 
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://#);
-	--app-margin: 1px;
+	--app-bg: url(https://raw.githubusercontent.com/ri9z/DiscordTranslucence/refs/heads/main/bg30.png);
+	--app-margin: 0.5px;
 	--app-blur: 0px;
 	--app-radius: 15px;
 	/*	-	*/
@@ -18,8 +23,8 @@
 	--accent-text-color: #000;
 	/*	-	*/
 
-	--sidebar-color: rgba(0, 0, 0, 0.639);
-	--main-content-color: rgba(0, 0, 0, 0.639);
+	--sidebar-color: rgba(0, 0, 0, 0.753);
+	--main-content-color: rgba(0, 0, 0, 0.753);
 	/*	-	*/
 
 	--message-color: rgba(0, 0, 0, 0);
