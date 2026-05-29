@@ -1,4 +1,4 @@
-# TranslucencePlus
+# DiscordTranslucence
 #### A transparent theme for Vencord. Modded from [Translucence](https://betterdiscord.app/theme/Translucence) and [TranslucencePlus](https://github.com/MeowIce/TranslucencePlus)
 
 # Requirements:
