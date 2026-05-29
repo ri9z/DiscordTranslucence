@@ -1,11 +1,11 @@
 # TranslucencePlus
-#### A transparent theme for BetterDiscord/Vencord. Modded from [Translucence](https://betterdiscord.app/theme/Translucence) and [TranslucencePlus](https://github.com/MeowIce/TranslucencePlus)
+#### A transparent theme for Vencord. Modded from [Translucence](https://betterdiscord.app/theme/Translucence) and [TranslucencePlus](https://github.com/MeowIce/TranslucencePlus)
 
 # Requirements:
-- [BetterDiscord](https://betterdiscord.app/) or [Vencord](https://vencord.dev) 
+- [Vencord](https://vencord.dev) (should also work with BetterDiscord)
 - SF Pro Display font
 
 # Installation:
-- Copy `TranslucencePlus.theme.css` to your Vencord/BetterDiscord theme folder.
-- Enable the theme in DB's themes settings.
+- Copy `TranslucencePlus.theme.css` to your Vencord theme folder.
+- Enable the theme in Vencord themes settings.
 
