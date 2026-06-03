@@ -23,8 +23,8 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 	--accent-text-color: #000;
 	/*	-	*/
 
-	--sidebar-color: rgba(0, 0, 0, 0.753);
-	--main-content-color: rgba(0, 0, 0, 0.753);
+	--sidebar-color: rgba(0, 0, 0, 0.0);
+	--main-content-color: rgba(0, 0, 0, 0.0);
 	/*	-	*/
 
 	--message-color: rgba(0, 0, 0, 0);
@@ -68,6 +68,13 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 	--background-modifier-selected: rgba(255, 255, 255, 0.125);
 	--font-primary: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	--font-display: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+	--sidebar-w-collapsed: 36px;
+	--sidebar-h-extended: 240px;
+	--memberlist-collapsed: 62px;
+	--memberlist-expanded: 240px;
+	--memberlist-transition: 0.35s ease-in-out;
+	
 }
 
 .app__160d8,
@@ -227,4 +234,18 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 
 .wordmarkWindows__421ed {
 	color: hsl(0, 0%, 100%);
+}
+
+
+
+
+[class*=" guilds__"] {
+	width: 10px;
+	transition: width 0.2s ease 0.1s, opacity 0.2s ease 0.1s;
+	opacity: 1;
+}
+
+[class*=" guilds__"]:hover {
+	width: 65px;
+	opacity: 1;
 }
