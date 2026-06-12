@@ -15,8 +15,9 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 	--app-margin: 0.5px;
 	--app-blur: 0px;
 	--app-radius: 15px;
+
 	/*	-	*/
-	--accent-hue: 192;
+	--accent-hue: 193;
 	--accent-saturation: 72.3%;
 	--accent-lightness: 68.8%;
 	--accent-opacity: 0.5;
@@ -69,12 +70,13 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 	--font-primary: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	--font-display: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 
-	--sidebar-w-collapsed: 36px;
-	--sidebar-h-extended: 240px;
-	--memberlist-collapsed: 62px;
-	--memberlist-expanded: 240px;
-	--memberlist-transition: 0.35s ease-in-out;
-	
+		--sidebar-w-collapsed: 36px;
+			/*used for  collapsable sidebar*/
+			--sidebar-h-extended: 240px;
+			--memberlist-collapsed: 62px;
+			--memberlist-expanded: 240px;
+			--memberlist-transition: 0.35s ease-in-out;
+		}
 }
 
 .app__160d8,
@@ -200,7 +202,7 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 .inset_ac5d22,
 .guildSection_e58351,
 .emojiSection_e58351 {
-	background-color: rgb(60, 60, 60, 0.5);
+	background-color: rgba(60, 60, 60, 0.5);
 }
 
 
@@ -248,4 +250,8 @@ A transparent theme for Vencord. Modded from Translucence and TranslucencePlus
 [class*=" guilds__"]:hover {
 	width: 65px;
 	opacity: 1;
+}
+
+[class^="content__"] {
+	box-shadow: none !important;
 }
